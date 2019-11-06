@@ -43,7 +43,7 @@ def total_even_pairs(src)
     while index < src.length do
       inner_index = 0
       while inner_index < src[index].length do
-        if |src[index][inner_index[0]] % 2 == 0| && |src[index][inner_index[1]] % 2 == 0|
+        if |src[index][inner_index[0]| % 2 == 0| && |src[index][inner_index[1]] % 2 == 0|
           total += src[index][inner_index]
         end
           inner_index += 1
