@@ -1,7 +1,14 @@
 require "pry"
 
 def join_ingredients(src)
-  
+  pizza = []
+  index = 0
+  while index < src.length do
+    inner = src[index]
+    pizza << "I love #{inner[0]} and #{inner[1] on my pizza}"
+    index += 1
+  end
+  pizza
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
