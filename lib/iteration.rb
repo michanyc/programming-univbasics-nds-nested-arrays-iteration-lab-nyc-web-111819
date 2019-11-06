@@ -24,7 +24,7 @@ def find_greater_pair(src)
     while index < src.count do
       inner_results = []
       inner_index = 0
-      while index < src[index].count do
+      while inner_index < src[index].count do
         inner_results << src[index][inner_index]
         inner_index += 1
       end
