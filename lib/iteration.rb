@@ -5,7 +5,7 @@ def join_ingredients(src)
   index = 0
   while index < src.length do
     inner = src[index]
-    pizza << "I love #{inner[0]} and #{inner[1] on my pizza}"
+    pizza << "I love #{inner[0]} and #{inner[1]} on my pizza"
     index += 1
   end
   pizza
