@@ -28,7 +28,7 @@ def find_greater_pair(src)
         inner_results << src[index][inner_index]
         inner_index += 1
       end
-        large_num << inner_results.max
+        large_num << inner_results
         index += 1
     end
     large_num
