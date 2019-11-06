@@ -21,10 +21,10 @@ end
 def find_greater_pair(src)
     large_num = []
     index = 0
-    while index < src.length do
+    while index < src.count do
       inner_results = []
       inner_index = 0
-      while index < src[index].length do
+      while index < src[index].count do
         inner_results << src[index][inner_index]
         inner_index += 1
       end
